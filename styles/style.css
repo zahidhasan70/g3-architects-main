@@ -1,0 +1,248 @@
+ 
+
+/* navber styles */
+.navber-style{
+    background-color: khaki;
+}
+.navber{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.nav-des{
+    text-align: center;
+} 
+.nav-title{
+    font-weight: 700px;
+    font-size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 100px;
+}
+.nav-description{
+    text-align: center;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-bottom: 20px;
+}
+.btn{
+    font-size: 18px;
+    height: 40px;
+    width:150px ;
+    background-color: orange;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+
+/* $ img styles */
+ .img{
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 40px;
+    gap: 50px;
+}
+.img-elimeny{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    row-gap: 15px;
+    column-gap: 15px;
+} 
+.img-des{
+    margin-top: 250px;
+}
+.img-title{
+    font-weight: 700px;
+    font-size: 30px;
+    margin-bottom: 20px; 
+    color: darkgray;
+}
+.blak{
+    color: black;
+}
+.red{
+    color: rgba(255, 166, 0, 0.999);
+}
+.img-description{
+    color: darkgray;
+}
+
+
+/* main-dection */
+.main-section{
+    display: flex;
+    gap: 150px;
+    margin-right: 140px;
+    margin-left: 140px;
+    margin-top: 50px;
+    
+}
+.main-title{
+    font-weight: 700px;
+    font-size: 35px;
+}
+.main-description{
+    font-size: 16px;
+    color: darkgray; 
+}
+
+ .blog-title{
+    font-weight: 700px;
+    font-size: 22px;
+ }
+ .blog-description{
+    font-size: 16px;
+    color: darkgray;
+ }
+.blog-1{
+    border: 1px solid wheat;
+    border-radius: 10px;
+    padding: 15px; 
+    margin-bottom: 15px;
+}.blog-2{
+    border: 1px solid wheat;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+.blog-3{
+    border: 1px solid wheat;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+}.blog-4{
+    border: 1px solid wheat;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+#img-setup{
+    height: 800px;
+    width: 700px;
+}
+#btn{
+    font-size: 18px;
+    height: 110px;
+    width:150px ;
+    background-color: orange;
+    border-radius: 5px;
+    margin-bottom: 50px 
+}
+
+/* facts  */
+.fact-details{
+    margin-left:150px;
+}
+ .fact-title{
+    font-weight: 700;
+    font-size: 30px;
+ }
+.facts{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    margin-top: 40px;
+}
+.fact-1{ 
+    border-width: 10px;
+    border: 1px solid orange;
+
+     
+}
+.fact-2{ 
+    border-width: 10px;
+    border: 1px solid orange;
+         
+    }
+.fact-3{ 
+    border-width: 10px;
+    border: 1px solid orange;
+             
+        }
+.fact-4{ 
+    border-width: 10px;
+    border: 1px solid orange;
+                 
+     }
+
+     /* sponspor */
+.sponspor-title{
+    font-weight: 700px;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 80px;
+}
+.sponspor-description{
+    font-weight: 700px;
+    font-size: 18px;
+    color: darkgray;
+    margin-left: 400px;
+    margin-right: 400px;
+    text-align: center;
+}
+
+.sponspor{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+/*-----------------
+- Footer style 
+--------------------*/
+.footer{
+    text-align: center;
+    background-color:lightgoldenrodyellow;
+    text-align: center;
+    color: darkgrey;
+    margin-left: 250px;
+    margin-right: 250px;
+    height: 50px;
+    margin-top: 5px;
+    font-size: 20px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
