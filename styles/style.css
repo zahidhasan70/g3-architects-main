@@ -10,6 +10,11 @@
     align-items: center;
     width: 90%;
 }
+.logo{
+    margin-left: 150px;
+    font-weight: 700px;
+    font-size: 25px;
+}
 
 ul{
     display: flex;
@@ -133,7 +138,7 @@ ul{
     width:150px ;
     background-color: orange;
     border-radius: 5px;
-    margin-bottom: 50px 
+    margin-bottom: 50px ;
 }
 
 /* facts  */
@@ -171,6 +176,7 @@ ul{
     border: 1px solid orange;
                  
      }
+
 
      /* sponspor */
 .sponspor-title{
@@ -213,6 +219,33 @@ ul{
     
 }
 
+/* ---------
+meadia queries
+----------- */
+/* Mobile Devices */
+@media only screen and (max-width:688px) {
+    
+    .logo{
+        text-align: justify;
+        margin-left: 100px;
+    }
+    .navber{
+        width: 100%;
+        display: inline-block;
+    }
+    .nav-description{
+        margin-left:40px;
+        margin-right: 40px;
+    }
+    #banner{
+        width: 300px;
+    }
+    .blogs{
+        display: grid;
+        grid-template-columns: repeat(2 2fr);
+    } 
+    
+}
 
 
 
