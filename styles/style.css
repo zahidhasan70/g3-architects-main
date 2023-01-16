@@ -240,11 +240,65 @@ meadia queries
     #banner{
         width: 300px;
     }
-    .blogs{
+    .img-elimeny{
         display: grid;
-        grid-template-columns: repeat(2 2fr);
-    } 
-    
+        grid-template-columns: repeat(1, 2fr);
+        margin-left: 0px;
+        
+       
+    }
+     .img{
+        display: grid;
+        grid-template-columns: repeat(1 1fr);
+        margin-left: 20px;  
+     }
+     /* .main-description{
+        color: blueviolet;
+        margin-left: 0px;
+        margin-right: 0px;
+     } */
+     .main-section{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 150px;
+        margin-right: 1200px;
+        margin-left: 0px;
+        margin-top: 50px;
+        
+    }
+     
+     .blog-1{
+        margin-right:300px;
+    }
+    .blog-2{
+        margin-right:300px;
+    }
+    .blog-3{
+        margin-right:300px;
+    }
+    .blog-4{
+        margin-right:300px;
+    }  */
+     
+    .fact-details{
+        margin-left:20px;
+    }
+    .sponspor-description{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+.sponspor{
+    display: grid;
+    grid-template-areas: repeat(2, 2fr);
+}
+.footer{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+        
+        
+        
+      
 }
 
 
